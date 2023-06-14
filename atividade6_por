@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro A
+		inteiro B
+
+		escreva("informe um numero ")
+		leia(A)
+
+		
+		escreva("informe um numero ")
+		leia(B)
+
+		se(B > A){
+			escreva(B)
+			
+		}
+
+		se(A > B){
+			escreva(A)
+		}
+	}
+}
