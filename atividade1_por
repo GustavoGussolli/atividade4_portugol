@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro metros
+		inteiro m_m
+		inteiro cobertura
+		inteiro latas
+		inteiro preco_total
+
+		escreva("qual o tamanho da area a ser pintada ")
+		leia(metros)
+
+		m_m = metros/3
+
+		cobertura = m_m / 1
+
+		latas = cobertura/18
+
+		preco_total = latas * 480
+
+		escreva("a quantidade de latas de tinta é " , latas )
+		escreva("\n")
+		escreva("e preço total é ", preco_total)
+	}
+}
