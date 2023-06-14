@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro d
+		inteiro h
+		inteiro s
+
+		escreva("quantos dias ")
+		leia(d)
+
+		escreva("quantos horas ")
+		leia(h)
+
+		escreva("quantos segundos ")
+		leia(s)
+
+		
+		escreva("\n")
+		escreva(d + h + s * 60)
+		
+	}
+}
