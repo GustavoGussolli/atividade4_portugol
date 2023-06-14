@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real temp
+
+		escreva("informe a temperatura ")
+		leia(temp)
+
+		se(temp > 1){
+			escreva("A temperatura está positiva")
+		}
+
+		se(temp < 1){
+			escreva("A temperatura está negativa")
+		}
+	
+	}
+}
