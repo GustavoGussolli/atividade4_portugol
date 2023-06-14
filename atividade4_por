@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro D
+		inteiro KM
+		real Km_valor , D_valor
+
+		escreva("quantos dias você percorreu com o carro ")
+		leia(D)
+
+		escreva("quantos KM você percorreu com o carro ")
+		leia(KM)
+
+		D_valor = D * 60.00
+		escreva("\n")
+		Km_valor = KM * 0.15
+
+		escreva("você terá que pagar R$ " , Km_valor + D_valor)
+		
+		
+
+	}
+}
