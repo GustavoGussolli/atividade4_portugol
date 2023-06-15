@@ -1,0 +1,115 @@
+programa
+{
+	inclua biblioteca Matematica
+ --> m
+	
+	
+inteiro opcao
+	inteiro quantidade
+	real total
+	
+	funcao inicio()
+	{
+		escreva("*********************************************\n")
+		escreva("*            LANCHONETE DO CAMPUS           *\n")
+		escreva("*********************************************\n")
+		escreva("* 100 - hot dog ----------------- R$ 5.00   *\n")
+		escreva("* 101 - bauro ------------------- R$ 2.60   *\n")
+		escreva("* 102 - bauro com ovo ----------- R$ 3.80   *\n")
+		escreva("* 103 - hamburger --------------- R$ 9.00   *\n")
+		escreva("* 104 - chesseburger------------ R$ 11.00   *\n")
+		escreva("* 105 - refigerante ------------- R$ 3.00   *\n")
+		escreva("* 106 - semente dos deuses --- R$ 1000.00   *\n")
+		escreva("* 0 - SAIR                                  *\n")
+		escreva("*********************************************\n")
+
+		escreva("\nDeseja alguma coisa? ")
+		leia(opcao)
+
+		escolha(opcao){
+			
+			caso 100: 
+				escreva("hot dog. Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 5.0, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+				
+			caso 101: 
+				escreva("bauru. Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 2.60, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+
+			caso 102: 
+				escreva("bauro com ovo. Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 3.80, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+
+			caso 103: 
+				escreva("hamburger. Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 9.0, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+
+			
+			caso 104: 
+				escreva("cheeseburger. Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 11.0, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+
+			
+			caso 105: 
+				escreva("refrigerante . Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 3.0, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+
+
+			
+			caso 106: 
+				escreva("semente dos deuses. Quantas unidades? ")
+				leia(quantidade)
+	
+				total = m.arredondar(quantidade * 1000.0, 2)
+	
+				escreva("total: ", total)
+					
+			pare
+
+
+			caso 0: 
+				escreva("Obrigado por escolher nossa cantina...")
+			pare
+				
+			caso contrario: 
+				escreva("opção inválida.")
+			pare
+		}
+	}
+}
