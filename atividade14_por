@@ -1,0 +1,45 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nota1
+		inteiro nota2
+		inteiro nota
+
+		escreva("qual foi a sua nota no primeiro bimestre ")
+		leia(nota1)
+
+		escreva("qual foi a sua nota no segundo bimestre ")
+		leia(nota2)
+
+		nota = nota1 + nota2 /2
+
+		se(nota > 7)
+		{
+
+			escreva("Aprovado")
+	
+		}
+
+		
+		se(nota < 7 )
+		{
+
+			escreva("Reprovado")
+	
+		}
+
+
+		se(nota1 >= 10)
+		{
+
+			escreva("Aprovado com distinçao")
+	
+		}
+
+		
+	}
+
+	
+}
