@@ -1,0 +1,49 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a
+		inteiro b 
+		inteiro c
+
+		escreva("informe um numero: ")
+		leia(a)
+
+		escreva("informe um numero: ")
+		leia(b)
+
+		escreva("informe um numero: ")
+		leia(c)
+
+		se(a > b e a > c){
+			escreva(a, "\n")
+
+			se(b > c){
+				escreva(b, "\n", c)
+			}senao{
+				escreva(c, "\n" , b)
+			}
+		}senao se(b > a e b > c ){
+				escreva(b, "\n")
+			
+              se(a > c){
+              	escreva(a , "\n" , c)
+              }senao{
+              	escreva(c , "\n" , a)
+              }
+
+		}senao{
+			escreva(c, "\n")
+			
+              se(a > b){
+              	escreva(a , " \n" , b)
+              }
+
+			senao{
+				escreva(b , "\n" , a)
+			}
+		}
+
+	}
+}
