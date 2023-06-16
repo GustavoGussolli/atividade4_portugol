@@ -1,0 +1,43 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro febre 
+		inteiro coriza
+		inteiro tosse
+		inteiro dor_de_garganta
+		inteiro dificuldade_p_respirar
+
+		escreva("Responda as perguntas com 1 para sim e 2 pra não ok \n \n")
+		
+
+
+		escreva("voce está com febre? ")
+		leia(febre)
+
+		escreva("voce está com coriza? ")
+		leia(coriza)
+		
+		escreva("voce está com tosse? ")
+		leia(tosse)
+		
+		escreva("voce está com dor de garganta? ")
+		leia(dor_de_garganta)
+		
+		escreva("voce está com doficuldade para respirar? ")
+		leia(dificuldade_p_respirar) 
+
+		se(febre == 1 e coriza == 1 e tosse == 1)
+		{
+			escreva("voce esta com sintomas comuns pode estar com gripe ou covid vá ao medico")
+		}
+
+		
+		se(dificuldade_p_respirar == 1)
+		{
+			escreva("voce está com sintomas graves vá para o medico")
+		}
+
+	}
+}
