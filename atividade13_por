@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro vl
+		inteiro multa
+		inteiro multakm
+
+		escreva("escreva a sua velocidade: ")
+		leia(vl)
+
+		se(vl > 80)
+		{
+
+		multa = vl - 80  
+
+		multakm = multa * 7
+
+		
+			escreva("voce foi multado em R$ " , multakm)
+		}
+
+		senao
+		{
+		escreva("dboa patrão pode passar")	
+		}
+	}
+}
