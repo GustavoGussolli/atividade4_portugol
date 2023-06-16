@@ -1,0 +1,40 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a , b , c 
+
+		escreva("informe a: ")
+		leia(a)
+
+		escreva("informe b: ")
+		leia(b)
+
+		escreva("informe c: ")
+		leia(c)
+
+		se(a + b > c  e a + c > b e b + c > a)
+		 {
+			se(a == b e a ==c){
+            escreva("Triângulo Equilátero")
+            }
+            
+            
+         se(a == b ou a == c ou b == c)
+        	 {
+            escreva("Triângulo Isósceles \n")
+		 }
+            
+        senao
+        {
+            escreva("Triângulo Escaleno \n")
+        }
+		}
+		senao
+		{
+			escreva("não é um triangulo \n")
+		}
+
+	}
+}
